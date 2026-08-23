@@ -1,9 +1,9 @@
 # Orders service dependencies
 #
 # Dependency refresh:
-#   Django   1.11    -> 3.2.5   (newer, but still carries known CVEs)
-#   PyYAML   3.12    -> 5.3.1   (newer, but still carries known CVEs)
-#   requests 2.19.1  -> 2.32.5  (latest, no known CVEs)
-Django==3.2.5
-PyYAML==5.3.1
-requests==2.32.5
+#   aiohttp      3.7.4   -> 3.9.0   (newer, but still carries known CVEs)
+#   cryptography 2.3     -> 41.0.0  (newer, but still carries known CVEs)
+#   urllib3      1.24.1  -> 2.7.0   (latest, no known CVEs)
+aiohttp==3.9.0
+cryptography==41.0.0
+urllib3==2.7.0

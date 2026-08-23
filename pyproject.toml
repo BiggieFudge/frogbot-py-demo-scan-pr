@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "orders-service"
+version = "1.0.0"
+description = "Demo orders service used to showcase Frogbot scan-pull-request"
+requires-python = ">=3.7"
+dependencies = [
+    "aiohttp==3.9.0",
+    "cryptography==41.0.0",
+    "urllib3==2.7.0",
+]
+
+[tool.setuptools]
+packages = ["orders"]
