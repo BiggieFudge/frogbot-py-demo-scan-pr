@@ -1,0 +1,18 @@
+params:
+  git:
+    repoName: frogbot-py-demo-scan-pr
+    branches:
+      - main
+  scan:
+    # Report every vulnerability found in the PR, not only newly introduced ones
+    includeAllVulnerabilities: true
+    # Keep the demo green so the PR comment is always produced
+    failOnSecurityIssues: false
+    projects:
+      - installCommandName: pip
+        installCommandArgs: ["install", "-r", "requirements.txt"]
+        workingDirs:
+          - .
+        useWrapper: false
+  jfrogPlatform:
+    watches: []
