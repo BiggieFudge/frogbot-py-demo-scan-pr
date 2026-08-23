@@ -1,5 +1,9 @@
 # Orders service dependencies
-# NOTE: intentionally pinned to vulnerable versions for Frogbot demo purposes.
-Django==1.11
-PyYAML==3.12
-requests==2.19.1
+#
+# Dependency refresh:
+#   Django   1.11    -> 3.2.5   (newer, but still carries known CVEs)
+#   PyYAML   3.12    -> 5.3.1   (newer, but still carries known CVEs)
+#   requests 2.19.1  -> 2.32.5  (latest, no known CVEs)
+Django==3.2.5
+PyYAML==5.3.1
+requests==2.32.5
