@@ -1,5 +1,5 @@
 # Orders service dependencies
-# NOTE: intentionally pinned to vulnerable versions for Frogbot demo purposes.
-Django==1.11
-PyYAML==3.12
-requests==2.19.1
+# NOTE: intentionally pinned to known-vulnerable versions for the Frogbot demo.
+aiohttp==3.7.4
+cryptography==2.3
+urllib3==1.24.1
